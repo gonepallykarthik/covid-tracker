@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+.innerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.title {
+  border-bottom: 5px solid black;
+}
+.img {
+  height: 100px;
+  width: 100px;
+}
